@@ -12,6 +12,8 @@ import com.pedropathing.math.Pose;
 import static com.pedropathing.api.Paths.*;
 import com.pedropathing.paths.Path;
 import com.pedropathing.ivy.Scheduler;
+import com.qualcomm.robotcore.hardware.HardwareMap;
+
 import static com.pedropathing.ivy.Scheduler.schedule;
 import static com.pedropathing.ivy.groups.Groups.parallel;
 import static com.pedropathing.ivy.pedro.PedroCommands.follow;
